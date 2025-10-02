@@ -74,3 +74,4 @@ if text_input:
     with tab4:
         st.subheader("⚡ Quick Summary")
         st.info(generate_summary(keywords))
+        
