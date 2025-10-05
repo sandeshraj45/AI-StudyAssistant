@@ -3,7 +3,13 @@ import random
 import re
 
 # 🔹 Stopwords list (for cleaning)
-stopwords = {"is", "the", "and", "a", "of", "to", "in", "on", "for", "with"}
+stopwords = stopwords = {
+    "is", "the", "and", "a", "an", "of", "to", "in", "on", "for", "with",
+    "this", "that", "it", "by", "as", "are", "be", "was", "were", "from",
+    "at", "or", "which", "who", "whom", "what", "when", "where", "how",
+    "has", "have", "had", "will", "shall", "can", "could", "would", "should"
+}
+
 
 # 🔹 Extract keywords function
 def extract_keywords(text):
